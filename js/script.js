@@ -1,3 +1,19 @@
+//* HEADER NAV
+let paginaAtual = window.location.pathname.split("/").pop();
+
+// Seleciona todos os links do menu
+let links = document.querySelectorAll("header nav a");
+
+// Percorre os links
+links.forEach(link => {
+    let paginaLink = link.getAttribute("href");
+
+    if (paginaLink === paginaAtual) {
+        link.classList.add("paginaAtual");
+    }
+});
+
+
 //* CARROSSEL
 var btVoltar  = document.getElementById("btVoltar")
 var btAvancar = document.getElementById("btAvancar")
