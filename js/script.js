@@ -5,8 +5,8 @@ var moldura   = document.getElementById("moldura")
 
 var path = "img/"
 var imgs = [
-    'wp4323456.jpg',
-    'wppwgsm.jpg'
+    'CAPA_FACEBOOK.png',
+    'PLACAS E ADESIVOS MEDITA&AMA.png'
     ] //! ALTERAR !!!!!!!!!!!!!!!!!
 
 var idx  = 0
