@@ -147,7 +147,12 @@ main{
 section img{
     height: 400px;
     border-radius: 5px;
-    align-items: center;
+    display: inline-block;
+}
+
+/* Empurra a primeira imagem para centralizar o bloco de 3 */
+.equipe:first-of-type {
+  margin-left: calc(50% - 500px); 
 }
 
 section ul{
