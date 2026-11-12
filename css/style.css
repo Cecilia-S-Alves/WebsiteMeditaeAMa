@@ -131,9 +131,23 @@ li a img{
     width: 20px;
 }
 
-
-
-
+/* ========================
+conteudo nas págs
+=========================*/
+main{
+    margin: 15px;
+}
+section img{
+    height: 400px;
+    border-radius: 5px;
+    align-items: center;
+}
+section ul{
+    text-align: left;
+}
+h1{
+    text-align: center;
+}
 
 
 
