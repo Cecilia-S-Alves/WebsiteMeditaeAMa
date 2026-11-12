@@ -138,6 +138,24 @@ li a img{
 }
 
 
+/* ========================
+conteudo nas págs
+=========================*/
+main{
+    margin: 15px;
+}
+section img{
+    height: 400px;
+    border-radius: 5px;
+    align-items: center;
+}
+section ul{
+    text-align: left;
+}
+h1{
+    text-align: center;
+}
+
 /** AGENDAR  */
 #mainAgendar{
     display: flex;
@@ -153,6 +171,7 @@ iframe{
 
     border: none;
     border-radius: 12px;
+
 
     background-color: rgb(205, 226, 219);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
