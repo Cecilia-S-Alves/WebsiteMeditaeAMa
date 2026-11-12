@@ -164,103 +164,86 @@ main{
 }
 
 
-
-
-/* =========================
-   RESPONSIVIDADE - TABLET
-========================= */
+/*? RESPONSIVIDADE - TABLET  */
 
 @media screen and (max-width: 900px) {
-    /* HEADER */
+    /** HEADER */
     header {
         padding: 0 15px;
     }
-
     header img {
         height: 45px;
         left: 15px;
     }
-
     nav {
         gap: 12px;
     }
-
     nav a {
         font-size: 14px;
     }
 
-    /* CARROSSEL */
+    /** CARROSSEL */
     #moldura {
         max-width: 80%;
         height: 260px;
     }
 
-    /* FOOTER */
+    /** FOOTER */
     ul {
         gap: 12px;
     }
-
     li{
         font-size: 12px;
     }
 
-    /* AGENDAR */
+    /** AGENDAR */
     iframe {
         height: 850px;
     }
 }
 
 
-/* =========================
-   RESPONSIVIDADE - CELULAR
-========================= */
+/*? RESPONSIVIDADE - CELULAR  */
 
 @media screen and (max-width: 600px) {
-
-    /* BODY */
     body {
         padding-top: 85px;
         min-height: calc(100vh - 85px);
     }
 
-    /* HEADER */
+    /** HEADER */
     header {
         height: 80px;
         padding: 5px 10px;
         flex-direction: column;
     }
-
     header img {
         height: 45px;
         
     }
-
     nav {
         width: 100%;
         flex-wrap: wrap;
         justify-content: center;
         gap: 8px;
     }
-
     nav a {
         font-size: 12px;
         text-align: center;
         padding: 5px;
     }
 
-    /* CARROSSEL */
+    /** CARROSSEL */
     #carrossel {
         gap: 3px;
         padding: 0 5px;
     }
-
     #moldura {
         width: 100%;
         max-width: calc(100% - 65px);
         height: auto;
         max-height: 250px;
     }
-
     .botao {
         margin: 2px;
         padding: 5px 8px;
@@ -268,24 +251,21 @@ main{
         flex-shrink: 0;
     }
 
-    /* FOOTER */
+    /** FOOTER */
     footer {
         padding: 5px 0;
         box-sizing: border-box;
     }
-
     ul {
         flex-wrap: wrap;
         justify-content: center;
         gap: 8px 15px;
         margin: 8px 5px;
     }
-
     li {
         max-width: 100%;
         font-size: 11px;
     }
-
     li a img {
         width: 17px;
         height: 17px;
@@ -293,11 +273,10 @@ main{
         flex-shrink: 0;
     }
 
-    /* AGENDAR */
+    /** AGENDAR */
     #mainAgendar {
         padding: 10px 5px;
     }
-
     iframe {
         width: 95%;
         height: 900px;

@@ -81,5 +81,5 @@ function ResetarTemporizador()
         else idx = 0
         
         MostrarFoto()
-    }, 2000)
+    }, 3000)
 }
