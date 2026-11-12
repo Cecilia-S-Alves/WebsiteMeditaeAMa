@@ -21,8 +21,8 @@ var moldura   = document.getElementById("moldura")
 
 var path = "img/"
 var imgs = [
-    'CAPA_FACEBOOK.png',
-    'PLACAS E ADESIVOS MEDITA&AMA.png'
+    'Banner 1.png',
+    'Banner 2.png'
     ] //! ALTERAR !!!!!!!!!!!!!!!!!
 
 var idx  = 0
