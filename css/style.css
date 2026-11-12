@@ -13,7 +13,10 @@ body{
     color: rgb(78, 90, 94);
     background-color: rgb(212, 165, 111);
     padding-top: 70px;
-
+    padding-bottom: 0;
+    min-height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
 }
 a{
     text-decoration: none;
@@ -97,7 +100,7 @@ nav a.paginaAtual{
 
 /** FOOTER */
 footer{
-    position: fixed;
+    position: static;
     bottom: 0;
     background-color:rgb(78, 90, 94);
     color: rgb(205, 226, 219);
@@ -156,7 +159,9 @@ iframe{
 }
 
 
-
+main{
+    flex: 1;
+}
 
 
 
@@ -166,7 +171,6 @@ iframe{
 ========================= */
 
 @media screen and (max-width: 900px) {
-
     /* HEADER */
     header {
         padding: 0 15px;
@@ -215,8 +219,8 @@ iframe{
 
     /* BODY */
     body {
-        padding-top: 110px;
-        padding-bottom: 120px;
+        padding-top: 85px;
+        min-height: calc(100vh - 85px);
     }
 
     /* HEADER */

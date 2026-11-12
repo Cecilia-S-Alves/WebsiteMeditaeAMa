@@ -22,8 +22,9 @@ var moldura   = document.getElementById("moldura")
 var path = "img/"
 var imgs = [
     'Banner 1.png',
-    'Banner 2.png'
-    ] //! ALTERAR !!!!!!!!!!!!!!!!!
+    'Banner 2.png',
+    'Banner 3.png'
+    ]
 
 var idx  = 0
 var temp = null
